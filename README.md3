@@ -1,49 +1,30 @@
-# Data-Visualisation-on-Sales-Dataset---Task-3
-#  Task 3 – Interactive Sales Dashboard (Power BI)
+# Task 4: SQL for Data Analysis
 
-##  Objective
-Design a clean, interactive Power BI dashboard that enables business stakeholders to monitor key sales metrics and trends using slicers, KPI cards, and charts.
+## 📌 Objective
+Analyze structured e-commerce data using SQL queries to extract insights, apply transformations, and generate views. This task demonstrates the use of SQL for real-world data analysis.
 
-##  Dataset
-- **Filename**: `sales_data_sample.csv`
-- **Source**: Kaggle (Sales & Financial Dataset)
+## 🗂️ Dataset
+- Cleaned version of the **Online Retail** dataset (CSV)
+- Manually imported into **MySQL**
 
-## Tools Used
-- Power BI Desktop (free version)
+## 🧰 Tools Used
+- MySQL Workbench
+- GitHub
+- CSV to SQL converter (for import)
 
-## Dashboard Components
+## 🧠 SQL Concepts Covered
+- `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`
+- Aggregate functions: `SUM()`, `AVG()`
+- Subqueries
+- Views
+- Indexing (for performance optimization)
 
-###  KPI Cards
-- **Total Sales** – Sum of all revenue generated
-- **Total Orders** – Count of unique order numbers
-- **Total Customers** – Count of unique customers
-- **Average Sales per Order** – Calculated metric showing average revenue per order
+## 🧾 Key Queries Included
+- Display top 10 records from the dataset
+- Calculate total revenue by country
+- Find average revenue per customer
+- Identify top customer by spend using a subquery
+- Create a view for high-value customers
+- Query the view for insights
 
-### Visualizations
-- **Line Chart**: Monthly Sales Trend  
-  Shows sales fluctuation over time (date hierarchy set to Month)
-  
-- **Bar Chart**: Sales by Product Line  
-  Highlights which product categories are top performers
-
-###  Interactivity
-- **Slicers**:
-  - Product Line
-  - Country
-  - Order Date (date range selector)
-
-##  Key Insights
-- **Classic Cars** lead in total sales across all product lines.
-- Sales trend shows peaks during **Q3 and Q4**, indicating seasonal demand.
-- The dashboard enables quick filtering and comparison using slicers.
-- KPIs help quickly summarize core business performance metrics.
-
-## Deliverables
-- Power BI `.pbix` file
-- Dashboard Screenshot / Exported PDF
-- This `README.md'
-
-##  Author
-**Anushree P**  
-Data Science Engineering Student  
-Bangalore, India.
+## 📂 Repository Structure
