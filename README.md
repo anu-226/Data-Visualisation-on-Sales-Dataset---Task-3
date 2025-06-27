@@ -1,30 +1,52 @@
-# Task 4: SQL for Data Analysis
+📊 Task 3 – Interactive Sales Dashboard (Power BI)
+🎯 Objective
+Design a clean, interactive Power BI dashboard that enables business stakeholders to monitor key sales metrics and trends. The dashboard uses slicers, KPI cards, and charts to offer actionable insights.
 
-## 📌 Objective
-Analyze structured e-commerce data using SQL queries to extract insights, apply transformations, and generate views. This task demonstrates the use of SQL for real-world data analysis.
+🗂️ Dataset
+Filename: sales_data_sample.csv
 
-## 🗂️ Dataset
-- Cleaned version of the **Online Retail** dataset (CSV)
-- Manually imported into **MySQL**
+Source: Kaggle - Sales & Financial Dataset
 
-## 🧰 Tools Used
-- MySQL Workbench
-- GitHub
-- CSV to SQL converter (for import)
+Tool Used: Power BI Desktop (Free Version)
 
-## 🧠 SQL Concepts Covered
-- `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`
-- Aggregate functions: `SUM()`, `AVG()`
-- Subqueries
-- Views
-- Indexing (for performance optimization)
+📌 Dashboard Components
+🧮 KPI Cards
+Total Sales – Sum of all revenue generated
 
-## 🧾 Key Queries Included
-- Display top 10 records from the dataset
-- Calculate total revenue by country
-- Find average revenue per customer
-- Identify top customer by spend using a subquery
-- Create a view for high-value customers
-- Query the view for insights
+Total Orders – Count of unique order numbers
 
-## 📂 Repository Structure
+Total Customers – Count of unique customers
+
+Average Sales per Order – Total Sales ÷ Total Orders
+
+📈 Visualizations
+Line Chart: Monthly Sales Trend
+
+Shows fluctuations in sales over time using a month-level date hierarchy
+
+Bar Chart: Sales by Product Line
+
+Compares sales performance across different product categories
+
+🧩 Interactivity
+Slicers:
+
+Product Line
+
+Country
+
+Order Date (Date Range Selector)
+
+🔍 Key Insights
+Classic Cars lead in total sales across all product lines
+
+Q3 and Q4 show peak sales activity, suggesting seasonal demand
+
+Slicers allow for quick filtering and deep-dive analysis
+
+KPI Cards provide instant visibility into business health
+
+📤 Deliverables
+✅ Power BI File: Sales_Dashboard.pbix
+
+✅ Exported PDF / Screenshot of the Dashboard
